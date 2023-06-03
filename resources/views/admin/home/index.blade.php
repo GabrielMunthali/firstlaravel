@@ -10,3 +10,11 @@
     </div>
 </div>
 @endsection
+
+
+160cm long 70 wide
+75 cm height
+
+5'3
+2'3
+2'5
