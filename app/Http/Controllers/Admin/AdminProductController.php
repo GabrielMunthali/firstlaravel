@@ -43,9 +43,8 @@ class AdminProductController extends Controller
         }
         
         return back();
-
     }
-
+    
     public function edit($id)
     {
         $viewData = [];
@@ -77,7 +76,7 @@ class AdminProductController extends Controller
             );
             $product->setImage($imageName);
         }
-        
+
         $product->save();
         return redirect()->route('admin.product.index');
 
