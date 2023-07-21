@@ -31,7 +31,7 @@
                         <a class="nav-link active" href="{{ route('register') }}">Register</a>
                         @else
                         <form id="logout" action="{{ route('logout') }}" method="POST">
-                            <a role="button" class="nav-link active" onclick="document.getElementByID('logout').submit();">Logout</a>
+                            <a role="button" class="nav-link active" onclick="document.getElementById('logout').submit();">Logout</a>
                             @csrf
                         </form>
                     @endguest
